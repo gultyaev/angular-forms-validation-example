@@ -1,0 +1,20 @@
+.error-message {
+  color: red;
+}
+
+:host ::ng-deep {
+  input[myInput] {
+    display: block;
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    border: 1px solid rgba(0, 0, 0, 0.3);
+    border-radius: 5px;
+    color: #4a4a4a;
+
+    &:focus {
+      border-color: rgba(0, 0, 0, 0.7);
+      outline: 0;
+    }
+  }
+}
